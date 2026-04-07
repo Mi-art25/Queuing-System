@@ -2,7 +2,7 @@
 header('Content-Type: application/json');
 header('Access-Control-Allow-Origin: *');
 
-define('API_BASE', 'https://queuing-system-crht.onrender.com');
+define('API_BASE', 'https://queuing-system-1.onrender.com');
 
 function callApi(string $method, string $endpoint, array $body = []): ?array {
     $url = API_BASE . $endpoint;
